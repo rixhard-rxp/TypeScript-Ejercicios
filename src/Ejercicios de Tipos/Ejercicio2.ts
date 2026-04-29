@@ -3,6 +3,8 @@
 // Crea una función que reciba un arreglo de transacciones y retorne un objeto que
 // contenga la suma total agrupada por tipo.
 
+export {}
+
 type TransactionType = "Ingreso" | "Egreso";
 
 type Transaction = {

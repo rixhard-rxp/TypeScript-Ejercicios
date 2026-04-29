@@ -1,4 +1,3 @@
-"use strict";
 // Define un tipo Transacción que contenga el monto, el tipo ("ingreso" o "egreso") y
 // la categoría.
 // Crea una función que reciba un arreglo de transacciones y retorne un objeto que
@@ -23,3 +22,4 @@ function sumGroupedByType(transactions) {
     }, { Ingreso: 0, Egreso: 0 });
 }
 console.log(sumGroupedByType(transactions));
+export {};

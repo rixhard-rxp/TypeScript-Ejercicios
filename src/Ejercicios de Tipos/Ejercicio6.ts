@@ -3,6 +3,8 @@
 // Escribe una función que calcule el promedio por categoría para un estudiante
 // específico.
 
+export {}
+
 type categoryType = "tareas" | "quices" | "examen";
 
 type Score = {

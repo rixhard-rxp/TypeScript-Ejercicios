@@ -1,4 +1,3 @@
-"use strict";
 // Crea una tipo Calificación con estudianteId, materia, categoría ("tareas", "quices",
 // "examen") y nota.
 // Escribe una función que calcule el promedio por categoría para un estudiante
@@ -38,3 +37,4 @@ function CalculateAverageByCategory(qualifications, searchedId) {
 }
 const resumeStudent1 = CalculateAverageByCategory(allQualifications, 1);
 console.log("Resumen Estudiante 1:", resumeStudent1);
+export {};

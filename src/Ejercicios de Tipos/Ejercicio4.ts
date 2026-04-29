@@ -3,6 +3,8 @@
 // Desarrolla una función que valide una lista de campos y devuelva los nombres de
 // los campos inválidos según su tipo.
 
+export {}
+
 type FieldType = "text" | "number" | "email";
 
 type FormField = {

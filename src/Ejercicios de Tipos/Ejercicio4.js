@@ -1,4 +1,3 @@
-"use strict";
 // Crea un tipo CampoFormulario con las propiedades: nombre, tipo ("texto", "numero",
 // "email") y valor (que puede ser string o number).
 // Desarrolla una función que valide una lista de campos y devuelva los nombres de
@@ -34,3 +33,4 @@ function validateFields(FormFields) {
 }
 const errors = validateFields(FormFields);
 console.log("Campos inválidos detectados:", errors);
+export {};

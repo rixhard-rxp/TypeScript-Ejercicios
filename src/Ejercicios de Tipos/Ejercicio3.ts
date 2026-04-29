@@ -3,6 +3,8 @@
 // Implementa una función enviarNotificacion que reciba una notificación y ejecute
 // una lógica distinta dependiendo del tipo (usando type narrowing).
 
+export {}
+
 type Email = {
     receiver: string;
     message: string;

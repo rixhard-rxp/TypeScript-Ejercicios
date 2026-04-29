@@ -1,4 +1,3 @@
-"use strict";
 // Define una unión de tipos para representar notificaciones por email, SMS y push.
 // Cada una debe tener propiedades distintas.
 // Implementa una función enviarNotificacion que reciba una notificación y ejecute
@@ -18,3 +17,4 @@ function sendNotification(notification) {
     }
 }
 sendNotification(miPrueba);
+export {};

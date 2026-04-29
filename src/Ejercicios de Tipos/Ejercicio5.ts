@@ -3,6 +3,8 @@
 // Escribe una función que reciba una lista de estos cambios y devuelva un resumen
 // con el número de veces que se cambió cada uno.
 
+export {}
+
 type type = "name" | "email" | "password";
 
 type UserChange = {

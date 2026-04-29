@@ -1,4 +1,3 @@
-"use strict";
 //Crea un tipo Tarea que tenga las propiedades: id, descripción, si está completada,
 //y un estado que solo puede ser "pendiente", "en_progreso" o "finalizada".
 //Implementa una función que reciba una lista de tareas y devuelva solo aquellas
@@ -16,3 +15,4 @@ function getTasksInProgressOrPending(tasks) {
     return result;
 }
 getTasksInProgressOrPending(tasks);
+export {};

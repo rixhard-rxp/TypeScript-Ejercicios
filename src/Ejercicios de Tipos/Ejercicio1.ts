@@ -3,6 +3,8 @@
 //Implementa una función que reciba una lista de tareas y devuelva solo aquellas
 //que estén en progreso o pendientes.
 
+export {}
+
 type StateTask = "Pendiente" | "En_Progreso" | "Finalizada";
 
 type Task = {

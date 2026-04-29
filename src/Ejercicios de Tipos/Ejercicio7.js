@@ -5,25 +5,12 @@
 // alimentos: menos de 20 unidades
 // tecnología: menos de 5 unidades
 // papelería: menos de 50 unidades
-
-export {};
-
-type productCategory = "alimentos" | "tecnología" | "papelería";
-
-type Product = {
-    id: number,
-    name: string,
-    amount: number,
-    category: productCategory
-};
-
-const products: Product[] = [
+const products = [
     { id: 1, name: "Manzana", amount: 13, category: "alimentos" },
     { id: 3, name: "IPhone", amount: 11, category: "tecnología" },
     { id: 4, name: "Lapiz Negro", amount: 12, category: "papelería" },
-]
-
-function statusStock(product: Product): boolean {
+];
+function statusStock(product) {
     switch (product.category) {
         case "alimentos":
             return product.amount < 20;
@@ -35,11 +22,12 @@ function statusStock(product: Product): boolean {
             return false;
     }
 }
-
 products.forEach(product => {
     if (statusStock(product)) {
         console.log("El producto ", product.name, "tiene bajo stock ", product.amount, " unidades).");
-    } else {
+    }
+    else {
         console.log("El producto ", product.name, "tiene stock suficiente.");
     }
-})
+});
+export {};
